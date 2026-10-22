@@ -43,7 +43,7 @@ You need the Japanese Redump dumps. Each patch goes on **Track 1** only. Track 2
 | Game | Original Track 1 | MD5 of the original |
 |---|---|---|
 | Super Robot Wars F | `Super Robot Taisen F (Japan) (Track 1).bin` | `f064a3cccce3d7fe8a1163bc58e8fbf4` |
-| Super Robot Wars F Final | `Super Robot Taisen F Kanketsuhen (Japan) (Track 1).bin` | `bbdd2cdbc756513bf3d11e68cb7df4ff` |
+| Super Robot Wars F Final | `Super Robot Taisen F - Kanketsu-hen (Japan) (Track 1).bin` (older sets: `Super Robot Taisen F Kanketsuhen (Japan) (Track 1).bin`) | `bbdd2cdbc756513bf3d11e68cb7df4ff` |
 
 1. Check that your Track 1 has the MD5 above. If it doesn't, the patch won't apply.
 2. Apply the `.xdelta` to Track 1 with any xdelta3 patcher. From a command line:
@@ -71,6 +71,40 @@ You need the Japanese Redump dumps. Each patch goes on **Track 1** only. Track 2
 | Super Robot Wars F Final (English + NG+, experimental) | `00b92f407c9e1dfa8d4deec7337c6c05` |
 
 Your original files are never changed. The patch writes a new file.
+
+### If the game won't boot: the .cue file
+
+Most boot problems come from the `.cue` file, not the patch.
+
+**The easy fix.** Make a new folder. Copy your original Track 2 `.bin` and your original `.cue` into it. Put the patched Track 1 in the same folder and give it **exactly** the original Track 1's file name. The original `.cue` then works as it is.
+
+**Or write the .cue yourself.** Open Notepad, paste the sheet for your game below, and change the Track 1 line to your patched file's name. Choose *Save As*, set *Save as type* to **All Files**, and name it something like `Super Robot Wars F (English).cue`, so it doesn't become `.cue.txt`. Keep it in the same folder as both `.bin` files.
+
+Super Robot Wars F (Redump disc 27769):
+```
+FILE "Super Robot Taisen F (Japan) (Track 1).bin" BINARY
+  TRACK 01 MODE2/2352
+    INDEX 01 00:00:00
+FILE "Super Robot Taisen F (Japan) (Track 2).bin" BINARY
+  TRACK 02 AUDIO
+    INDEX 00 00:00:00
+    INDEX 01 00:02:00
+```
+
+Super Robot Wars F Final (Redump disc 2682):
+```
+FILE "Super Robot Taisen F - Kanketsu-hen (Japan) (Track 1).bin" BINARY
+  TRACK 01 MODE2/2352
+    INDEX 01 00:00:00
+FILE "Super Robot Taisen F - Kanketsu-hen (Japan) (Track 2).bin" BINARY
+  TRACK 02 AUDIO
+    INDEX 00 00:00:00
+    INDEX 01 00:02:00
+```
+
+If your files use the older name `Super Robot Taisen F Kanketsuhen (Japan)`, write that instead. Every name in the `.cue` must match the file on disk letter for letter.
+
+**Open the `.cue`, not the `.bin`,** in your emulator (in DuckStation: *Start File* and pick the `.cue`). Opening the `.bin` alone loses the CD audio track.
 
 ---
 
