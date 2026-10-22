@@ -6,6 +6,8 @@ I treated the two games as one project, since F Final picks up exactly where F l
 
 This is the final release. There are four patches: one for each game, plus an **experimental** New Game+ version of each.
 
+> **Start a new save.** Don't load a save from the Japanese games. The patch shows names in an English font, so a Japanese save's hero and partner names come out as garbage. Begin a fresh game on the patched disc, and carry that save from F into F Final.
+
 ---
 
 ## Downloads
@@ -46,7 +48,7 @@ You need the Japanese Redump dumps. Each patch goes on **Track 1** only. Track 2
        INDEX 00 00:00:00
        INDEX 01 00:02:00
    ```
-5. Open the `.cue` and **start a new game**.
+5. Open the `.cue` and **start a new game**. Don't load a Japanese save: the hero and partner names would show as garbage.
 
 | Patched Track 1 | MD5 |
 |---|---|
@@ -122,7 +124,7 @@ These bugs are in the Japanese releases. Each one is fixed in a way that keeps t
 - **Subtitles for map attack voices.** In F Final, the pilot lines voiced during map weapon attacks (High Mega Cannon, Twin Buster Rifle, Fin Funnels, Ideon Gun and Ideon Sword, and the rest) show as subtitles at the bottom of the map, in the same style as the battle scenes. Master Asia's map shout gets its "Explode!" in both games.
 - **Long voiced lines page properly.** When a voiced story line needs a second text box, the second box comes up on its own at the pause in the voice where that sentence ends, the way the Japanese game times its own long voiced lines.
 - **Battles load as fast as the Japanese disc.** The patched files keep the original disc layout, so there is no extra seek time before or after battle scenes.
-- **New Game+ (EXPERIMENTAL, separate patches).** Finish F Final and save on the screen after the credits. Put that save on the memory card you play SRW F from, choose Load on SRW F's title screen, and the F Final clear save shows up in a free slot. Loading it starts a new SRW F game from hero setup where your **unit upgrades, money and Power Parts** carry over. Every part comes back unequipped and in stock, within the game's own limits of 9,999,999 credits and 9 of each part. Pilot levels and everything else start fresh. Upgrades follow each unit back down its line to its first form (Shin Getter's upgrades go to Getter Robo, for example), and the upgrade limit is 10 from the start. The run carries on into F Final as usual. A clear save from a New Game+ run never starts another one. New Game+ writes one small file per run to the memory card, named **SRW F NG+ UPGRADES**. Keep it, and keep it on the same card as that run's saves; without it, the run's units join without their upgrades. If the card is full, the Load says the data can't be loaded and nothing changes.
+- **New Game+ (EXPERIMENTAL, separate patches).** The F Final clear save has to come from a playthrough on the New Game+ patch; a Japanese save, or one from the plain patch, won't start New Game+. Finish F Final and save on the screen after the credits. Put that save on the memory card you play SRW F from, choose Load on SRW F's title screen, and the F Final clear save shows up in a free slot. Loading it starts a new SRW F game from hero setup where your **unit upgrades, money and Power Parts** carry over. Every part comes back unequipped and in stock, within the game's own limits of 9,999,999 credits and 9 of each part. Pilot levels and everything else start fresh. Upgrades follow each unit back down its line to its first form (Shin Getter's upgrades go to Getter Robo, for example), and the upgrade limit is 10 from the start. The run carries on into F Final as usual. A clear save from a New Game+ run never starts another one. New Game+ writes one small file per run to the memory card, named **SRW F NG+ UPGRADES**. Keep it, and keep it on the same card as that run's saves; without it, the run's units join without their upgrades. If the card is full, the Load says the data can't be loaded and nothing changes.
 
 ---
 
@@ -152,7 +154,7 @@ New Game+ is **experimental**. I have not tested it in a real playthrough.
 
 - **Untested routes.** See the playtest scope above. The Space route, the DC route and the Eva bad end have not been played through.
 - **New Game+ is experimental.** It reads and writes your memory card. Back up your memory card before you use it. Keep the SRW F NG+ UPGRADES file on the same card as that run's saves.
-- **Start a new game.** Japanese saves load, but the hero and partner names show as random letters. Start fresh with the English patch.
+- **Start a new save.** Japanese saves load, but the hero and partner names show as garbage. Start fresh on the patched disc, and carry that save from F into F Final.
 - **Emulator save states don't carry over.** States made on the Japanese disc or on an older build of this patch won't work. Load your memory card save instead.
 - **Use matching patches.** Patch both games from the same set (both plain or both New Game+) so your F save carries into F Final cleanly.
 - **Cheat codes.** Codes written for the Japanese release may not behave the same, because some of the game's data has moved.
