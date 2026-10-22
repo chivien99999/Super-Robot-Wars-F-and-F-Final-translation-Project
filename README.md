@@ -4,7 +4,7 @@ A complete English translation of **Super Robot Wars F** (*Super Robot Taisen F*
 
 I treated the two games as one project, since F Final picks up exactly where F leaves off. Everything you read in either game is in English: the story, every battle quote, the menus, the encyclopedia, hero setup, and even the title screen. Along the way I fixed a long list of bugs that shipped in the original Japanese games, and I added a few things I always wanted when I played them, like a Battle Scene on/off switch, subtitles for the voiced scenes, and an experimental New Game+.
 
-This is the final release. There are four patches: one for each game, plus an **experimental** New Game+ version of each.
+**Version 1.0** (build 78, 2026-10-22). This is the final release. There are four patches: one for each game, plus an **experimental** New Game+ version of each.
 
 > **Start a new save.** Don't load a save from the Japanese games. The patch shows names in an English font, so a Japanese save's hero and partner names come out as garbage. Begin a fresh game on the patched disc, and carry that save from F into F Final.
 
@@ -124,7 +124,24 @@ These bugs are in the Japanese releases. Each one is fixed in a way that keeps t
 - **Subtitles for map attack voices.** In F Final, the pilot lines voiced during map weapon attacks (High Mega Cannon, Twin Buster Rifle, Fin Funnels, Ideon Gun and Ideon Sword, and the rest) show as subtitles at the bottom of the map, in the same style as the battle scenes. Master Asia's map shout gets its "Explode!" in both games.
 - **Long voiced lines page properly.** When a voiced story line needs a second text box, the second box comes up on its own at the pause in the voice where that sentence ends, the way the Japanese game times its own long voiced lines.
 - **Battles load as fast as the Japanese disc.** The patched files keep the original disc layout, so there is no extra seek time before or after battle scenes.
-- **New Game+ (EXPERIMENTAL, separate patches).** The F Final clear save has to come from a playthrough on the New Game+ patch; a Japanese save, or one from the plain patch, won't start New Game+. Finish F Final and save on the screen after the credits. Put that save on the memory card you play SRW F from, choose Load on SRW F's title screen, and the F Final clear save shows up in a free slot. Loading it starts a new SRW F game from hero setup where your **unit upgrades, money and Power Parts** carry over. Every part comes back unequipped and in stock, within the game's own limits of 9,999,999 credits and 9 of each part. Pilot levels and everything else start fresh. Upgrades follow each unit back down its line to its first form (Shin Getter's upgrades go to Getter Robo, for example), and the upgrade limit is 10 from the start. The run carries on into F Final as usual. A clear save from a New Game+ run never starts another one. New Game+ writes one small file per run to the memory card, named **SRW F NG+ UPGRADES**. Keep it, and keep it on the same card as that run's saves; without it, the run's units join without their upgrades. If the card is full, the Load says the data can't be loaded and nothing changes.
+- **New Game+ (EXPERIMENTAL, separate patches).** Start SRW F over with what you built up in F Final. See [How to start New Game+](#how-to-start-new-game) below.
+
+### How to start New Game+
+
+This needs the two New Game+ patches, for both games.
+
+1. Play F Final on the New Game+ patch to the end. A Japanese save, or one from the plain patch, won't start New Game+.
+2. After the credits, a Save screen opens. Save there. That's your clear save.
+3. Put the clear save on the same memory card you play SRW F from, with at least one free block left.
+4. Start SRW F (New Game+ patch), choose **Load** on the title screen, and pick the F Final clear save. It's offered in a slot where SRW F has no save of its own.
+5. A new SRW F game starts at hero setup.
+
+What carries over: your **unit upgrades, money and Power Parts**. Parts come back unequipped and in stock, within the game's own limits of 9,999,999 credits and 9 of each part. Upgrades follow each unit back down its line to its first form (Shin Getter's upgrades go to Getter Robo, for example), and the upgrade limit is 10 from the start. Pilot levels and everything else start fresh. The run carries on into F Final as usual.
+
+Good to know:
+- A clear save from a New Game+ run never starts another one.
+- New Game+ writes one small file per run to the memory card, named **SRW F NG+ UPGRADES**. Keep it, and keep it on the same card as that run's saves; without it, the run's units join without their upgrades.
+- If the card is full, the Load says the data can't be loaded and nothing changes.
 
 ---
 
@@ -158,8 +175,17 @@ New Game+ is **experimental**. I have not tested it in a real playthrough.
 - **Emulator save states don't carry over.** States made on the Japanese disc or on an older build of this patch won't work. Load your memory card save instead.
 - **Use matching patches.** Patch both games from the same set (both plain or both New Game+) so your F save carries into F Final cleanly.
 - **Cheat codes.** Codes written for the Japanese release may not behave the same, because some of the game's data has moved.
-- **Emulator only.** I played on an emulator. Real hardware and optical drive emulators haven't been tested.
+- **Tested on DuckStation only.** That's where I played. Real hardware, optical drive emulators and other emulators haven't been tested.
+- **Keep the disc as it is.** Don't rebuild the patched image or rearrange its files into folders. The map subtitles rely on the disc's original single-folder layout, and a rearranged disc breaks them.
 - **Redump dumps only.** The patches apply only to the exact Redump Track 1 files listed above.
+
+---
+
+## Changelog
+
+**v1.0** (build 78, 2026-10-22): the first public release.
+- The complete translation of both games, with every fix and addition listed above.
+- The last changes before release: story lines re-read in context across every scene of both games, Queen Elle's name box reads "Elle Humm" so she isn't confused with Elle Vianno, and New Game+ now carries money and Power Parts as well as upgrades.
 
 ---
 
