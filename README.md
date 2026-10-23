@@ -190,6 +190,8 @@ Good to know:
 - A clear save from a New Game+ run never starts another one.
 - New Game+ writes one small file per run to the memory card, named **SRW F NG+ UPGRADES**. Keep it, and keep it on the same card as that run's saves; without it, the run's units join without their upgrades.
 - If the card is full, the Load says the data can't be loaded and nothing changes.
+- **Three story events delete a robot, upgrades and all.** In F Final, when Sleggar sacrifices himself at the Big Zam battle, when Four dies protecting Kamille, and when Quattro goes missing at A Baoa Qu, the game deletes the robot that pilot is sitting in at that moment. The original game does this too. New Game+ copies what's in your clear save, so a robot lost this way starts the next run without its upgrades. If you want to keep a robot's upgrades, don't have these pilots in it when those battles come. (Kamille leaving doesn't cost you the Zeta Gundam; it stays.)
+- **Wong's offer to take your unused machines also costs you robots.** In F Final, after the battle with Drake's army, Wong offers to buy the machines you no longer need, and you get 100,000 for them. At that point the game moves some pilots out of the mobile suits they were in, and every robot left without a pilot is thrown away, upgrades and all. Those robots won't carry over to New Game+ either. Before that scene, put a pilot in every robot whose upgrades you want to keep.
 
 ---
 
