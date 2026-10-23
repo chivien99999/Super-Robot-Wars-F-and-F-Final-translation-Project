@@ -4,7 +4,7 @@ A complete English translation of **Super Robot Wars F** (*Super Robot Taisen F*
 
 I treated the two games as one project, since F Final picks up exactly where F leaves off. Everything you read in either game is in English: the story, every battle quote, the menus, the encyclopedia, hero setup, and even the title screen. Along the way I fixed a long list of bugs that shipped in the original Japanese games, and I added a few things I always wanted when I played them, like a Battle Scene on/off switch, subtitles for the voiced scenes, and an experimental New Game+.
 
-**Version 1.0** (build 78, 2026-10-22). This is the final release. There are four patches: one for each game, plus an **experimental** New Game+ version of each.
+**Version 1.0** (build 78, 2026-10-22), with a New Game+ hotfix (build 79, 2026-10-23). This is the final release; the hotfix changes only the New Game+ patches. There are four patches: one for each game, plus an **experimental** New Game+ version of each.
 
 > **Start a new save.** Don't load a save from the Japanese games. The patch shows names in an English font, so a Japanese save's hero and partner names come out as garbage. Begin a fresh game on the patched disc, and carry that save from F into F Final.
 
@@ -33,6 +33,8 @@ I treated the two games as one project, since F Final picks up exactly where F l
 | English + New Game+ (**EXPERIMENTAL**) | Super Robot Wars F Final | [`patches/ngplus-experimental/SRW_F_Final_English_NGplus_EXPERIMENTAL.xdelta`](patches/ngplus-experimental/SRW_F_Final_English_NGplus_EXPERIMENTAL.xdelta) |
 
 Pick **one** set and use it for **both** games: either the two plain patches, or the two New Game+ patches. Don't mix them.
+
+> **Plain or New Game+?** The plain patches are frozen: they won't be updated unless a serious bug turns up, and they're the safe version to play. New Game+ is experimental and still gets fixes; for example, before Update 79 it did not carry Mobility upgrades. If you play New Game+, always use the latest New Game+ patches from this page and patch both games with them. A run started on an older patch keeps what that patch carried.
 
 ---
 
@@ -187,6 +189,7 @@ This needs the two New Game+ patches, for both games.
 What carries over: your **unit upgrades, money and Power Parts**. Parts come back unequipped and in stock, within the game's own limits of 9,999,999 credits and 9 of each part. Upgrades follow each unit back down its line to its first form (Shin Getter's upgrades go to Getter Robo, for example), and the upgrade limit is 10 from the start. Pilot levels and everything else start fresh. The run carries on into F Final as usual.
 
 Good to know:
+- **Always use the latest New Game+ patch.** New Game+ is experimental and still gets fixes; for example, before Update 79 it did not carry Mobility upgrades. Before you start a run, check this page for the newest New Game+ patches and patch both games with them. A run started on an older patch keeps what that patch carried. The regular patches (without New Game+) are final and will only change if a serious bug turns up; they are the safe version to play.
 - A clear save from a New Game+ run never starts another one.
 - New Game+ writes one small file per run to the memory card, named **SRW F NG+ UPGRADES**. Keep it, and keep it on the same card as that run's saves; without it, the run's units join without their upgrades.
 - If the card is full, the Load says the data can't be loaded and nothing changes.
@@ -232,6 +235,10 @@ New Game+ is **experimental**. I have not tested it in a real playthrough.
 ---
 
 ## Changelog
+
+**v1.0 New Game+ hotfix** (build 79, 2026-10-23): New Game+ patches only.
+- New Game+ now carries Mobility upgrades too. Before this, they were left behind.
+- The plain patches are unchanged.
 
 **v1.0** (build 78, 2026-10-22): the first public release.
 - The complete translation of both games, with every fix and addition listed above.
