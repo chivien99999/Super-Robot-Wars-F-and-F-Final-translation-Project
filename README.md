@@ -69,8 +69,8 @@ You need the Japanese Redump dumps. Each patch goes on **Track 1** only. Track 2
 |---|---|
 | Super Robot Wars F (English) | `b906f4dea38fe9285b63920b538786df` |
 | Super Robot Wars F Final (English) | `4e341be0c9017e57665b5b659b76df4a` |
-| Super Robot Wars F (English + NG+, experimental) | `4e0bb7b5c642522e67dd66f0eaaeaece` |
-| Super Robot Wars F Final (English + NG+, experimental) | `00b92f407c9e1dfa8d4deec7337c6c05` |
+| Super Robot Wars F (English + NG+, experimental) | `2a0ffe81d5c4d4539f5c9da8f837d583` |
+| Super Robot Wars F Final (English + NG+, experimental) | `3e95cb38adf3465b99ae0a102a7fb773` |
 
 Your original files are never changed. The patch writes a new file.
 
