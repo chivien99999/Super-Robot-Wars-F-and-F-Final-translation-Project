@@ -108,6 +108,8 @@ If your files use the older name `Super Robot Taisen F Kanketsuhen (Japan)`, wri
 
 **Open the `.cue`, not the `.bin`,** in your emulator (in DuckStation: *Start File* and pick the `.cue`). Opening the `.bin` alone loses the CD audio track.
 
+**Turn off DuckStation's texture cache.** In *Settings > Graphics > Texture Replacement*, untick *Enable Texture Cache*. With it on, SRW F's opening crawl can stay blank for about 45 seconds and then start partway through. The untouched Japanese disc does the same, so this is an emulator setting, not the patch.
+
 ---
 
 ## What I translated
