@@ -4,7 +4,7 @@ A complete English translation of **Super Robot Wars F** (*Super Robot Taisen F*
 
 I treated the two games as one project, since F Final picks up exactly where F leaves off. Everything you read in either game is in English: the story, every battle quote, the menus, the encyclopedia, hero setup, and even the title screen. Along the way I fixed a long list of bugs that shipped in the original Japanese games, and I added a few things I always wanted when I played them, like a Battle Scene on/off switch, subtitles for the voiced scenes, and an experimental New Game+.
 
-**Version 1.0** (build 78, 2026-10-22), with a New Game+ hotfix (build 79, 2026-10-23). This is the final release; the hotfix changes only the New Game+ patches. There are four patches: one for each game, plus an **experimental** New Game+ version of each.
+**Version 1.0** (build 80, 2026-10-25). This is the final release; builds 79 and 80 are small hotfixes on top of the first release (build 78), listed in the Changelog. There are four patches: one for each game, plus an **experimental** New Game+ version of each.
 
 > **Start a new save.** Don't load a save from the Japanese games. The patch shows names in an English font, so a Japanese save's hero and partner names come out as garbage. Begin a fresh game on the patched disc, and carry that save from F into F Final.
 
@@ -67,10 +67,10 @@ You need the Japanese Redump dumps. Each patch goes on **Track 1** only. Track 2
 
 | Patched Track 1 | MD5 |
 |---|---|
-| Super Robot Wars F (English) | `b906f4dea38fe9285b63920b538786df` |
-| Super Robot Wars F Final (English) | `4e341be0c9017e57665b5b659b76df4a` |
-| Super Robot Wars F (English + NG+, experimental) | `2a0ffe81d5c4d4539f5c9da8f837d583` |
-| Super Robot Wars F Final (English + NG+, experimental) | `3e95cb38adf3465b99ae0a102a7fb773` |
+| Super Robot Wars F (English) | `b6443c1e7af87ec7fe7973ae6df8f726` |
+| Super Robot Wars F Final (English) | `0ebe9afdcc552fa9fad4837083088b67` |
+| Super Robot Wars F (English + NG+, experimental) | `20e719eb7b0f89243ba99686ce04b7d2` |
+| Super Robot Wars F Final (English + NG+, experimental) | `a7102bbc453867af68f88e0e88cdcd94` |
 
 Your original files are never changed. The patch writes a new file.
 
@@ -237,6 +237,10 @@ New Game+ is **experimental**. I have not tested it in a real playthrough.
 ---
 
 ## Changelog
+
+**v1.0 hotfix** (build 80, 2026-10-25): all four patches.
+- The unit upgrade screen read "(Up to10 levels)" in both games. It now reads "(Up to 10 levels)".
+- Nothing else changed.
 
 **v1.0 New Game+ hotfix** (build 79, 2026-10-23): New Game+ patches only.
 - New Game+ now carries Mobility upgrades too. Before this, they were left behind.
