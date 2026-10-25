@@ -238,8 +238,8 @@ New Game+ is **experimental**. I have not tested it in a real playthrough.
 
 ## Changelog
 
-**v1.0 hotfix** (build 80, 2026-10-25): all four patches.
-- The unit upgrade screen read "(Up to10 levels)" in both games. It now reads "(Up to 10 levels)".
+**v1.0 hotfix** (build 80, 2026-10-25): a cosmetic fix in all four patches (plain and New Game+).
+- Added the missing space in "(Up to 10 levels)" on the unit upgrade screen, in both games. Before, it read "(Up to10 levels)".
 - Nothing else changed.
 
 **v1.0 New Game+ hotfix** (build 79, 2026-10-23): New Game+ patches only.
