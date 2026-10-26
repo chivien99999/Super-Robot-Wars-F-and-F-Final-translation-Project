@@ -4,7 +4,7 @@ A complete English translation of **Super Robot Wars F** (*Super Robot Taisen F*
 
 I treated the two games as one project, since F Final picks up exactly where F leaves off. Everything you read in either game is in English: the story, every battle quote, the menus, the encyclopedia, hero setup, and even the title screen. Along the way I fixed a long list of bugs that shipped in the original Japanese games, and I added a few things I always wanted when I played them, like a Battle Scene on/off switch, subtitles for the voiced scenes, and an experimental New Game+.
 
-**Version 1.0** (build 80, 2026-10-25). This is the final release; builds 79 and 80 are small hotfixes on top of the first release (build 78), listed in the Changelog. There are four patches: one for each game, plus an **experimental** New Game+ version of each.
+**Version 1.01** (build 81, 2026-10-26). This is the final release; builds 79 to 81 are hotfixes on top of the first release (build 78), listed in the Changelog. There are four patches: one for each game, plus an **experimental** New Game+ version of each.
 
 > **Start a new save.** Don't load a save from the Japanese games. The patch shows names in an English font, so a Japanese save's hero and partner names come out as garbage. Begin a fresh game on the patched disc, and carry that save from F into F Final.
 
@@ -81,10 +81,10 @@ You need the Japanese Redump dumps. Each patch goes on **Track 1** only. Track 2
 
 | Patched Track 1 | MD5 |
 |---|---|
-| Super Robot Wars F (English) | `b6443c1e7af87ec7fe7973ae6df8f726` |
-| Super Robot Wars F Final (English) | `0ebe9afdcc552fa9fad4837083088b67` |
-| Super Robot Wars F (English + NG+, experimental) | `20e719eb7b0f89243ba99686ce04b7d2` |
-| Super Robot Wars F Final (English + NG+, experimental) | `a7102bbc453867af68f88e0e88cdcd94` |
+| Super Robot Wars F (English) | `f7853017d09e17813614fd591632640f` |
+| Super Robot Wars F Final (English) | `a12a5a94cb3a9dc542a2523a59da6ccc` |
+| Super Robot Wars F (English + NG+, experimental) | `8c6f185de52a234ae54da9eab888a62b` |
+| Super Robot Wars F Final (English + NG+, experimental) | `672794d7affa199a4eeed7ddd8fb881e` |
 
 Your original files are never changed. The patch writes a new file.
 
@@ -251,6 +251,11 @@ New Game+ is **experimental**. I have not tested it in a real playthrough.
 ---
 
 ## Changelog
+
+**v1.01** (build 81, 2026-10-26): all four patches (plain and New Game+).
+- SRW F, "Target: Londo Bell": after every battle the screen went black until you opened a menu or the turn ended, and the Angel came back at full HP. My text tool had changed two bytes of that stage's script by mistake. They're back to the Japanese values.
+- F Final, "Double Fake" and "Final Operation: Conclusion": the same two-byte slip in the after-battle check, fixed the same way.
+- Thanks to EdgeHM on retrogametalk.com for reporting it.
 
 **v1.0 hotfix** (build 80, 2026-10-25): a cosmetic fix in all four patches (plain and New Game+).
 - Added the missing space in "(Up to 10 levels)" on the unit upgrade screen, in both games. Before, it read "(Up to10 levels)".
