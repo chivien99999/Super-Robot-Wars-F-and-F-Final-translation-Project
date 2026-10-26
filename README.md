@@ -20,7 +20,6 @@ A few quirks stay as they are. Some would mean changing how the game reads the d
 - **Master Asia and Allenby never parry (F Final):** both have the Parry skill, but Master Gundam and Nobel Gundam have no sword-type weapon, so it never triggers.
 - **Big Zam (F Final, DC route):** Sleggar's charge still destroys Big Zam when it has 1,999 HP or less. That's the scripted event. I only fixed the screen trouble that came with it.
 - **Memory card space:** the first save needs at least 3 free blocks on the card. With fewer, the game says the card is full.
-- **Saturn-only reports:** two freezes listed online for SRW F (Heavyarms next to Boss Borot, and a quick-save Continue against Dr. Hell) come from the Saturn version. They don't happen on the PlayStation.
 
 Thanks to haman on [retrogametalk.com](https://www.retrogametalk.com) for bringing the portrait one to my attention, so I can let you know what to expect.
 
