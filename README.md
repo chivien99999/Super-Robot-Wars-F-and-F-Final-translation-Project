@@ -16,7 +16,6 @@ A few quirks stay as they are. Some would mean changing how the game reads the d
 
 - **Wrong portrait:** if a character's portrait fails to load from the disc, the game keeps showing the last face it drew, so a line can show the wrong character's face.
 - **Black screen after battles:** going back to the map after a battle takes about 6 seconds of black screen while the game reloads from the disc.
-- **Noriko and Guts (F Final):** on the ground routes, Noriko never learns Guts, because the game only gives it to her in a space route stage. She still learns Super Guts.
 - **Master Asia and Allenby never parry (F Final):** both have the Parry skill, but Master Gundam and Nobel Gundam have no sword-type weapon, so it never triggers.
 - **Big Zam (F Final, DC route):** Sleggar's charge still destroys Big Zam when it has 1,999 HP or less. That's the scripted event. I only fixed the screen trouble that came with it.
 - **Memory card space:** the first save needs at least 3 free blocks on the card. With fewer, the game says the card is full.
