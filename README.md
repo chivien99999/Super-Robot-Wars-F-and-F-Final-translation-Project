@@ -10,6 +10,16 @@ I treated the two games as one project, since F Final picks up exactly where F l
 
 ---
 
+## Bugs from the original games that I left alone
+
+A few bugs stay as they are, because fixing them would mean changing how the game reads the disc, and I won't touch that.
+
+- If a portrait fails to load from the disc, the game keeps showing the last face it drew, so a line can show the wrong character's face. The Japanese release does the same.
+
+Thanks to haman on [retrogametalk.com](https://www.retrogametalk.com) for bringing this to my attention, so I can let you know what to expect.
+
+---
+
 ## Screenshots
 
 <table>
