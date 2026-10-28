@@ -4,7 +4,7 @@ A complete English translation of **Super Robot Wars F** (*Super Robot Taisen F*
 
 I treated the two games as one project, since F Final picks up exactly where F leaves off. Everything you read in either game is in English: the story, every battle quote, the menus, the encyclopedia, hero setup, and even the title screen. Along the way I fixed a long list of bugs that shipped in the original Japanese games, and I added a few things I always wanted when I played them, like a Battle Scene on/off switch, subtitles for the voiced scenes, and an experimental New Game+.
 
-**Version 1.02** (build 82, 2026-10-27). This is the final release; builds 79 to 82 are hotfixes on top of the first release (build 78), listed in the Changelog. There are four patches: one for each game, plus an **experimental** New Game+ version of each.
+**Version 1.02 hotfix** (build 83, 2026-10-28). This is the final release; builds 79 to 83 are hotfixes on top of the first release (build 78), listed in the Changelog. There are four patches: one for each game, plus an **experimental** New Game+ version of each.
 
 > **Start a new save.** Don't load a save from the Japanese games. The patch shows names in an English font, so a Japanese save's hero and partner names come out as garbage. Begin a fresh game on the patched disc, and carry that save from F into F Final.
 
@@ -81,10 +81,10 @@ You need the Japanese Redump dumps. Each patch goes on **Track 1** only. Track 2
 
 | Patched Track 1 | MD5 |
 |---|---|
-| Super Robot Wars F (English) | `f7853017d09e17813614fd591632640f` |
-| Super Robot Wars F Final (English) | `da6d6e27a6180c804b51fc41757c56d6` |
-| Super Robot Wars F (English + NG+, experimental) | `8c6f185de52a234ae54da9eab888a62b` |
-| Super Robot Wars F Final (English + NG+, experimental) | `b320a3c4fd217e144fb96a5df29c06fd` |
+| Super Robot Wars F (English) | `13e31a62908d608b43be42a37e4e2772` |
+| Super Robot Wars F Final (English) | `5502f6eaba5d0f47f9ae2943eb4e9f5c` |
+| Super Robot Wars F (English + NG+, experimental) | `7da7d11121cec870431fe173c83c5f7f` |
+| Super Robot Wars F Final (English + NG+, experimental) | `e15ac8571d377e53d2dd83a8bc2cf8b3` |
 
 Your original files are never changed. The patch writes a new file.
 
@@ -251,6 +251,11 @@ New Game+ is **experimental**. I have not tested it in a real playthrough.
 ---
 
 ## Changelog
+
+**v1.02 hotfix** (build 83, 2026-10-28): a cosmetic fix in all four patches (plain and New Game+).
+- Name entry, both games: if you typed a short name over a long default name (like Patorisia) and pressed Space over the rest, the last letters could stay behind ("Anna" came out as "Anna ia"). Space now clears each leftover letter, the same way X always did.
+- Nothing else changed, and v1.02 saves keep working.
+- Thanks to EdgeHM on retrogametalk.com for reporting it.
 
 **v1.02** (build 82, 2026-10-27): F Final patches only (plain and New Game+).
 - F Final, "Complete! The Super Fighter": one enemy's AI pointed at the wrong code, because my text tool had changed two bytes of that stage's script by mistake (the same kind of slip as v1.01). They're back to the Japanese values. A new check now walks every stage script in both games against the Japanese discs and finds nothing else.
